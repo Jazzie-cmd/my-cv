@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Logo from "./logo"
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -24,9 +25,7 @@ const Navbar = () => {
         {/* LOGO */}
         <div className="flex items-center gap-3">
 
-          <div className="w-11 h-11 flex items-center justify-center rounded-full border border-gray-700">
-            <span className="font-bold text-lg">J</span>
-          </div>
+          <Logo />
 
           <h1 className="text-xl font-semibold">
             Jazzie<span className="text-cyan-400">.</span>

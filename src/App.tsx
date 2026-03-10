@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import Logo from "./components/logo"
 import Loader from "./components/Loader"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <>
+      <Logo />
       <Navbar />
       <Hero />
       <About />

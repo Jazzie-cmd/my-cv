@@ -12,17 +12,17 @@ const Projects = () => {
   const projects: Project[] = [
     {
       title: "Portfolio Website",
-      desc: "Personal portfolio built with React + TypeScript + TailwindCSS.",
+      desc: "Personal portfolio built with React + TypeScript + TailwindCSS v4.",
       image: "/public/portfolio.png",
       tech: ["React", "TypeScript", "Tailwind"],
       github: "https://github.com/Jazzie-cmd/my-cv",
       demo: "https://jazzie-nu.vercel.app/"
     },
     {
-      title: "Task Manager",
-      desc: "Task management web application with modern UI.",
+      title: "SWORD",
+      desc: "LLM-Based Spearphishing and Whaling attack in Emails.",
       image: "/projects/taskmanager.png",
-      tech: ["React", "Firebase"],
+      tech: ["React", "Firebase","Python","Tailwind"],
       github: "https://github.com/yourrepo"
     },
     {

@@ -15,8 +15,8 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${scrolled
-          ? "bg-[#020617]/80 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+        ? "bg-[#020617]/80 backdrop-blur-md shadow-lg"
+        : "bg-transparent"
         }`}
     >
       <div className="max-w-[1200px] mx-auto px-6 py-6 flex items-center">
@@ -39,42 +39,42 @@ const Navbar = () => {
 
           <ul className="hidden md:flex items-center gap-8 text-[15px] text-gray-300">
 
-            <li><a href="#home" className="relative text-gray-300 transition
+            <li><a href="#home" className="relative font-bold text-gray-300 transition
     after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
     after:bg-gradient-to-r after:from-cyan-400 after:to-white
     after:origin-left after:scale-x-0
     after:transition-transform after:duration-300
     hover:after:origin-left hover:after:scale-x-100
     focus:after:origin-right focus:after:scale-x-0">Home</a></li>
-            <li><a href="#about" className="relative text-gray-300 transition
+            <li><a href="#about" className="relative font-bold text-gray-300 transition
     after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
     after:bg-gradient-to-r after:from-cyan-400 after:to-white
     after:origin-left after:scale-x-0
     after:transition-transform after:duration-300
     hover:after:origin-left hover:after:scale-x-100
     focus:after:origin-right focus:after:scale-x-0">About</a></li>
-            <li><a href="#services" className="relative text-gray-300 transition
+            <li><a href="#services" className="relative font-bold text-gray-300 transition
     after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
     after:bg-gradient-to-r after:from-cyan-400 after:to-white
     after:origin-left after:scale-x-0
     after:transition-transform after:duration-300
     hover:after:origin-left hover:after:scale-x-100
     focus:after:origin-right focus:after:scale-x-0">Services</a></li>
-            <li><a href="#experience" className="relative text-gray-300 transition
+            <li><a href="#experience" className="relative font-bold text-gray-300 transition
     after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
     after:bg-gradient-to-r after:from-cyan-400 after:to-white
     after:origin-left after:scale-x-0
     after:transition-transform after:duration-300
     hover:after:origin-left hover:after:scale-x-100
     focus:after:origin-right focus:after:scale-x-0">Experience</a></li>
-            <li><a href="#projects" className="relative text-gray-300 transition
+            <li><a href="#projects" className="relative font-bold text-gray-300 transition
     after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
     after:bg-gradient-to-r after:from-cyan-400 after:to-white
     after:origin-left after:scale-x-0
     after:transition-transform after:duration-300
     hover:after:origin-left hover:after:scale-x-100
     focus:after:origin-right focus:after:scale-x-0">Projects</a></li>
-            <li><a href="#contact" className="relative text-gray-300 transition
+            <li><a href="#contact" className="relative font-bold text-gray-300 transition
     after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
     after:bg-gradient-to-r after:from-cyan-400 after:to-white
     after:origin-left after:scale-x-0

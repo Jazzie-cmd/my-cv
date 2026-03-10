@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import Logo from "./components/logo"
+import Logo from "./components/Logo"
 import Loader from "./components/Loader"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"

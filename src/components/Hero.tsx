@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center">
 
-      <div className="max-w-[1200px] mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
 
         {/* LEFT SIDE */}
         <motion.div
@@ -31,7 +31,7 @@ const Hero = () => {
             <a
               href="/cv.pdf"
               download
-              className="flex items-center gap-2 border border-cyan-400 px-8 py-4 rounded-lg font-semibold hover:bg-cyan-600 transition"
+              className="flex items-center text-cyan-400 gap-2 border border-cyan-400 px-8 py-4 rounded-lg font-semibold hover:bg-cyan-600 hover:text-white transition"
             >
               Download CV
               <svg

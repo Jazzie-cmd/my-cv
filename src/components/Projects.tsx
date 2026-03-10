@@ -23,7 +23,7 @@ const Projects = () => {
       desc: "LLM-Based Spearphishing and Whaling attack in Emails.",
       image: "/projects/taskmanager.png",
       tech: ["React", "Firebase","Python","Tailwind"],
-      github: "https://github.com/yourrepo"
+      github: "https://github.com/Ayronman3/SWORDv1"
     },
     {
       title: "E-commerce UI",
@@ -34,7 +34,7 @@ const Projects = () => {
   ]
 
   return (
-    <section id="projects" className="py-24 bg-[#020617]">
+    <section id="projects" className="py-24 ">
 
       <div className="max-w-7xl mx-auto px-6">
 

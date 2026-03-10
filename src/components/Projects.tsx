@@ -13,7 +13,7 @@ const Projects = () => {
     {
       title: "Portfolio Website",
       desc: "Personal portfolio built with React + TypeScript + TailwindCSS v4.",
-      image: "/public/portfolio.png",
+      image: "/Portfolio.PNG",
       tech: ["React", "TypeScript", "Tailwind"],
       github: "https://github.com/Jazzie-cmd/my-cv",
       demo: "https://jazzie-nu.vercel.app/"

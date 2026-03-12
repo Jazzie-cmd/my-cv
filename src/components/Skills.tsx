@@ -1,12 +1,12 @@
 const Skills = () => {
 
   const skills = [
-    { name: "Figma", icon: "/src/assets/figma.svg", percent: "92%" },
-    { name: "React", icon: "/src/assets/react.svg", percent: "89%" },
-    { name: "JavaScript", icon: "/src/assets/javascript.svg", percent: "93%" },
-    { name: "TypeScript", icon: "/src/assets/typescript.svg", percent: "93%" },
-    { name: "Tailwind", icon: "/src/assets/tailwind.svg", percent: "93%" },
-    { name: "Python", icon: "/src/assets/python.svg", percent: "93%" },
+    { name: "Figma", icon: "/public/figma.svg", percent: "92%" },
+    { name: "React", icon: "/public/react.svg", percent: "89%" },
+    { name: "JavaScript", icon: "/public/javascript.svg", percent: "93%" },
+    { name: "TypeScript", icon: "/public/typescript.svg", percent: "93%" },
+    { name: "Tailwind", icon: "/public/tailwind.svg", percent: "93%" },
+    { name: "Python", icon: "/public/python.svg", percent: "93%" },
   ]
 
   return (
@@ -37,7 +37,7 @@ const Skills = () => {
 
                 {/* ICON */}
                 <img
-                  src={skill.icon}
+                  public={skill.icon}
                   className="
                   w-12 mb-3 grayscale opacity-60 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110"
                 />

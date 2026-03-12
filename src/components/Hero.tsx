@@ -2,8 +2,10 @@ import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center">
-
+    <section
+      id="home"
+      className="min-h-screen flex items-center pt-24 md:pt-0 bg-[#0f172a] text-white"
+    >
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
 
         {/* LEFT SIDE */}
@@ -16,7 +18,7 @@ const Hero = () => {
             I am Jazzie
           </p>
 
-          <h1 className="text-6xl md:text-7xl lg:text-[82px] font-bold leading-[1.05] bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-transparent">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[82px] font-bold leading-[1.05] bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-transparent">
             Frontend <br /> Developer
           </h1>
 
@@ -25,7 +27,7 @@ const Hero = () => {
             applications using React, TypeScript and Tailwind CSS.
           </p>
 
-          {/* BUTTONS */}
+          {/* BUTTON */}
           <div className="flex gap-5 max-w-lg mt-10">
 
             <a
@@ -34,6 +36,7 @@ const Hero = () => {
               className="flex items-center text-cyan-400 gap-2 border border-cyan-400 px-8 py-4 rounded-lg font-semibold hover:bg-cyan-600 hover:text-white transition"
             >
               Download CV
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -48,6 +51,7 @@ const Hero = () => {
                   d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
                 />
               </svg>
+
             </a>
 
           </div>
@@ -67,14 +71,20 @@ const Hero = () => {
 
             <img
               src="/Jazzie.png"
-              className="relative w-[340px] md:w-[380px] lg:w-[420px] rounded-3xl border border-gray-700 rotate-3 group-hover:rotate-0 transition duration-500"
+              className="
+              relative
+              w-[300px] sm:w-[340px] md:w-[380px] lg:w-[420px]
+              rounded-3xl border border-gray-700
+              rotate-0 md:rotate-3
+              md:group-hover:rotate-0
+              transition duration-500
+              "
             />
 
           </div>
 
         </div>
       </div>
-
     </section>
   )
 }

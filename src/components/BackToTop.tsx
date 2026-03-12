@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import arrowUp from "../../public/arrow-up.svg"
+import arrowUp from "/arrow-up.svg"
 
 const BackToTop = () => {
 

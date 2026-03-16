@@ -72,7 +72,7 @@ const Navbar = () => {
     <nav
       className={`fixed left-0 w-full z-50 transition-all duration-500
       ${showNavbar ? "top-0" : "-top-28"}
-      ${drop ? "animate-navbarDrop bg-[#020617]/80 backdrop-blur-md shadow-lg" : "bg-transparent"}
+      ${drop ? "animate-navbarDrop bg-[#020617]/80 backdrop-blur-md shadow-[0_0_20px_rgba(34,211,238,0.6)]" : "bg-transparent"}
       `}
     >
 
@@ -168,7 +168,12 @@ const Navbar = () => {
           {/* Hire Me */}
           <a
             href="#contact"
-            className="hidden md:block px-6 py-3 rounded-full text-white text-md font-semibold bg-linear-to-r from-cyan-500 border border-transparent hover:border-cyan-500 hover:from-transparent hover:text-cyan-500 transition-all duration-300"
+            className="hidden md:block px-6 py-3 rounded-full text-white text-md font-semibold
+            bg-gradient-to-r from-cyan-500 to-cyan-400
+            border border-transparent
+            hover:bg-none hover:border-cyan-400 hover:text-cyan-400
+            hover:shadow-[0_0_12px_rgba(34,211,238,0.6)]
+            transition-all duration-300"
           >
             Hire Me!
           </a>

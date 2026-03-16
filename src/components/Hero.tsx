@@ -14,47 +14,20 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <p className="text-white text-xl md:text-2xl font-semibold mb-4">
+          <p className="text-white text-xl md:text-2xl font-semibold mb-2">
             I am Jazzie
           </p>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[82px] font-bold leading-[1.05] bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-transparent">
-            Frontend <br /> Developer
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[82px] font-bold leading-[1.05] bg-linear-to-r from-cyan-400 to-white bg-clip-text text-transparent mt-">
+            Web <br /> Developer
           </h1>
 
           <p className="mt-6 text-gray-400 text-lg max-w-lg leading-relaxed">
-            I am a fresh graduate passionate about building modern web
-            applications using React, TypeScript and Tailwind CSS.
+            I am a passionate Frontend Developer dedicated to building modern, responsive, and user-friendly web applications. With experience in React, TypeScript, and Tailwind CSS, I focus on creating clean interfaces and efficient solutions that enhance user experience.
           </p>
 
           {/* BUTTON */}
-          <div className="flex gap-5 max-w-lg mt-10">
-
-            <a
-              href="/cv.pdf"
-              download
-              className="flex items-center text-cyan-400 gap-2 border border-cyan-400 px-8 py-4 rounded-lg font-semibold hover:bg-cyan-600 hover:text-white transition"
-            >
-              Download CV
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-5 h-5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-                />
-              </svg>
-
-            </a>
-
-          </div>
+          
         </motion.div>
 
         {/* RIGHT SIDE IMAGE */}

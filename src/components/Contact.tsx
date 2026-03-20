@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaFacebook, FaDiscord } from "react-icons/fa"
+import { FaEnvelope, FaGithub, FaFacebook, FaDiscord, FaLinkedin } from "react-icons/fa"
 import CV from "../assets/MARK JOSHUA F FERNANDEZ.pdf"
 
 const Contact = () => {
@@ -41,7 +41,7 @@ const Contact = () => {
 
           {/* Github */}
           <a
-            href="https://github.com/Jazzie-cmd"
+            href="https://www.github.com/Jazzie-cmd"
             target="_blank"
             rel="noopener norefferer"
             className="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition transform hover:scale-110"
@@ -52,7 +52,7 @@ const Contact = () => {
 
           {/* Facebook */}
           <a
-            href="https://facebook.com/"
+            href="https://www.facebook.com/"
             target="_blank"
             rel="noopener norefferer"
             className="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition transform hover:scale-110"
@@ -63,13 +63,23 @@ const Contact = () => {
 
           {/* Discord */}
           <a
-            href="https://discord.com/"
+            href="https://www.discord.com/"
             target="_blank"
             rel="noopener norefferer"
             className="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition transform hover:scale-110"
           >
             <FaDiscord className="text-3xl mb-2" />
             <span className="text-sm">Discord</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/mark-joshua-fernandez-b599513b9/"
+            target="_blank"
+            rel="noopener norefferer"
+            className="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition transform hover:scale-110"
+          >
+            <FaLinkedin className="text-3xl mb-2" />
+            <span className="text-sm">LinkedIn</span>
           </a>
 
         </div>

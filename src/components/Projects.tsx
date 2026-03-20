@@ -42,7 +42,7 @@ const Projects = () => {
 
       <div className="max-w-7xl mx-auto px-6">
 
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-transparent">
+        <h2 className="text-4xl md:text-5xl font-bold leading-[1.2] mb-16 w-fit mx-auto bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-400 bg-clip-text text-transparent">
           My Projects
         </h2>
 

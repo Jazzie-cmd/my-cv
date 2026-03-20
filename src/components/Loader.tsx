@@ -5,7 +5,7 @@ const Loader = () => {
 
   return (
     <motion.div
-      className="fixed inset-0 bg-[#020617] flex items-center justify-center z-[999]"
+      className="fixed inset-0 bg-[#020617] flex items-center justify-center z-999"
       initial={{ y: 0 }}
       exit={{ y: "-100%" }} // slide up
       transition={{ duration: 1, ease: "easeInOut" }}

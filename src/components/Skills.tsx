@@ -15,10 +15,10 @@ const Skills = () => {
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         {/* TITLE */}
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 w-fit mx-auto bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-400 bg-clip-text text-transparent ">
+        <h2 className="text-4xl md:text-5xl font-bold leading-[1.2] mb-16 w-fit mx-auto bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-400 bg-clip-text text-transparent">
           My Skills
         </h2>
-    
+
 
         <p className="text-gray-400 mb-10 max-w-xl mx-auto">
           Technologies and tools I use to build modern web applications.

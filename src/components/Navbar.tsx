@@ -82,7 +82,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-3">
           <Logo />
           <h1 className="text-2xl font-semibold">
-            Jazzie<span className="text-cyan-400">.</span>
+            Mark Joshua<span className="text-cyan-400">.</span>
           </h1>
         </div>
 

@@ -78,7 +78,7 @@ const Projects = () => {
                     {project.title}
                   </h3>
 
-                  {/* 🔥 EXPANDABLE DESCRIPTION */}
+                  {/* EXPANDABLE DESCRIPTION */}
                   <div
                     className={`
                       overflow-hidden transition-all duration-500 ease-in-out

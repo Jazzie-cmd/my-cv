@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react"
+import { AnimatePresence } from "framer-motion"
+
 import Loader from "./components/Loader"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
@@ -10,8 +12,6 @@ import Footer from "./components/Footer"
 import Skills from "./components/Skills"
 import BackToTop from "./components/BackToTop"
 
-
-
 function App() {
 
   const [loading, setLoading] = useState(true)
@@ -19,25 +19,30 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false)
-    }, 2000) // loader duration
+    }, 2000) // ⏱ loader duration
 
     return () => clearTimeout(timer)
   }, [])
 
-  if (loading) return <Loader />
-
   return (
     <>
-      <Navbar />
-      
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Contact />
-      <Footer />
-      <BackToTop />
+      {/* Loader with exit animation */}
+      <AnimatePresence mode="wait">
+        {loading && <Loader />}
+      </AnimatePresence>
+
+      {/*Main Content (always mounted underneath) */}
+      <div className={`${loading ? "opacity-0" : "opacity-100"} transition-opacity duration-700`}>
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Contact />
+        <Footer />
+        <BackToTop />
+      </div>
     </>
   )
 }
